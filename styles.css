@@ -1,8 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: aliceblue;
+    background-color: rgb(246, 247, 248);
 }
+
 nav{
     display: flex;
     flex-direction: row;
@@ -50,6 +51,7 @@ nav ul li a:hover{
     justify-content: center;
     text-align: center;
     
+    
 }
 #home h1{
     letter-spacing: 5px;
@@ -73,6 +75,7 @@ nav ul li a:hover{
 #Trainings{
 padding: 5vw 8vw 0 8vw;
 text-align: center;
+
 }
 #Trainings .ContentParentBox{
     display: grid;
@@ -85,18 +88,19 @@ text-align: center;
 .ContentBox{
     text-align: start;
     background-color: white;
+    border-radius: 7px;
 }
 .ContentBox i{
     font-size: 2.3rem;
     color: rgb(57, 57, 102);
 }
 .ContentBox h1{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Hanuman", serif;
     font-size: 20px;
     color:rgb(57, 57, 102) ;
     padding: 2px;
 }
 .ContentBox p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    font-size: 14px;
+    font-family: "Hanuman", serif;
     font-size: 15px;
 }
